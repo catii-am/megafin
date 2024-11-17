@@ -5,7 +5,7 @@
 * https://github.com/nazavod777/megafin_farmer
 
 ### Изменения: 
-* _Убрана поддержка прокси_
+* _Убрана обязательная поддержка прокси_
 * _Переписан код под httpx (поможет тем у кого ошибка с сертификатами)_
 
 ### Функции: 
@@ -18,3 +18,6 @@
 
 ### data/accounts.txt  
 - _Private Keys кошельков_  
+
+### data/proxies.txt  
+- Прокси для Private Keys (формат: type://user:pass@ip:port) 
